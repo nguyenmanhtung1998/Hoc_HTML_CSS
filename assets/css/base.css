@@ -1,0 +1,29 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+* {
+    /* inherit: ke thua box-sizing sau; */
+    /*  content-box: Giá trị mặc định, nghĩa là giá trị width và height chỉ áp dụng cho khu vực nội dung bên trong, không bao gồm padding, border và margin.
+        border-box: Khi thiết lập giá trị này, thì width và heigh sẽ bao gồm cho cả phần nội dung, padding và border nhưng không bao gồm margin.
+        padding-box: Với giá trị này thì width và height chỉ bao gồm cho phần nội dung và padding, không bao gồm border và margin*/
+    box-sizing: inherit;
+}
+html {
+    /* 16px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+}
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width {
+    width: 100%;
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
