@@ -11,6 +11,7 @@
     list-style: none;
     /* bo pading left mac dinh */
     padding-left: 0;
+    margin-top: 8px;
 }
 .header__navbar-item {
     margin: 0 8px;
@@ -23,6 +24,11 @@
     color: var(--white-color);
     text-decoration: none;
     font-weight: 300;
+}
+.header__navbar-item:hover,
+.header__navbar-item-link:hover {
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
 }
 .header__navbar-item--bold {
     font-weight: 400;
